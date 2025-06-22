@@ -111,3 +111,30 @@ body {
   box-shadow: 2px 2px 10px 3px  rgb(13, 13, 8);
   cursor: pointer;
 }
+
+
+@media (max-width:700px) {
+   
+  .para{
+  font-size: 1rem;
+   
+}
+.btns{
+ flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+#rock,#paper,#scissor{
+  height:10vh ;
+  width: 10vh;
+  
+}
+.result h2{
+  background-color: rgb(56, 179, 232);
+  
+   
+}
+
+  
+}
