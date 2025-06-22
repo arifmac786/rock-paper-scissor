@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock paper scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading"><h1>rock paper scissor</h1></div>
+      <div class="content">
+        <div class="score">
+          <div class="user-score">
+            <p class="num"></p>
+            <p class="para">user-score</p>
+          </div>
+          <div class="computer-score">
+            <p class="num"></p>
+            <p class="para">computer-score</p>
+          </div>
+        </div>
+        <div class="btns">
+          <div class="box" id="rock">
+            <img
+              src="images/rockk.jpeg"
+              alt="rock"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="box" id="paper">
+            <img
+              src="images/paper.png"
+              alt="paper"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="box" id="scissor">
+            <img
+              src="images/scissor.png"
+              alt="scissor"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+        </div>
+        <div class="result">
+          <h2>you chose ... ,  computer chose ..., you ...</h2>
+          <br>
+          <button class="reset" type="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
